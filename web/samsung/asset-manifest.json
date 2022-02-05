@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.d593a5bb.css",
+    "main.js": "./static/js/main.572f35a5.js",
+    "static/js/787.2f4c0033.chunk.js": "./static/js/787.2f4c0033.chunk.js",
+    "static/media/AppleSDGothicNeoL.ttf": "./static/media/AppleSDGothicNeoL.0ed4f3cf8e0a053dbc9c.ttf",
+    "static/media/AppleSDGothicNeoB.ttf": "./static/media/AppleSDGothicNeoB.4175a777557557f7d294.ttf",
+    "static/media/AppleSDGothicNeoM.ttf": "./static/media/AppleSDGothicNeoM.88c00162a2084f97069c.ttf",
+    "static/media/video_img-b.png": "./static/media/video_img-b.34558e4b19b58c99eb9c.png",
+    "static/media/bespoke.jpg": "./static/media/bespoke.4fdfcdd4761503409936.jpg",
+    "static/media/cont2_3.jpeg": "./static/media/cont2_3.91cab8ea08aed0c6fe0e.jpeg",
+    "static/media/cont2_1.jpeg": "./static/media/cont2_1.76e6592ec69b9ab4b41e.jpeg",
+    "static/media/cont2_4.jpeg": "./static/media/cont2_4.7aa6e927b9fae412bda9.jpeg",
+    "static/media/cont2_2.jpeg": "./static/media/cont2_2.f8a8fcde7eef08276a2a.jpeg",
+    "index.html": "./index.html",
+    "main.d593a5bb.css.map": "./static/css/main.d593a5bb.css.map",
+    "main.572f35a5.js.map": "./static/js/main.572f35a5.js.map",
+    "787.2f4c0033.chunk.js.map": "./static/js/787.2f4c0033.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d593a5bb.css",
+    "static/js/main.572f35a5.js"
+  ]
+}
