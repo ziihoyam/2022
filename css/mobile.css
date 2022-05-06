@@ -1,0 +1,294 @@
+/* font-family: 'Akira Expanded', sans-serif;*/
+@media screen and (max-width: 1023px){
+    @keyframes move{
+        0% {top:40%}
+        50% {top : 45%}
+        100% {top : 40%}
+    }
+    @keyframes opacityAnimate{
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+    html,
+    body{
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #modal{
+        display: none;
+    }
+    #wrapper{
+        width: 100%;
+        overflow: hidden;
+    }
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    
+    #top p{
+        font-family: 'Akira Expanded', sans-serif;
+        font-size: 15px;
+        letter-spacing: 0.3em;
+        margin-top: 10px;
+        color: #fff;
+    }
+    h2{
+        font-family: 'Akira Expanded', sans-serif;
+        font-size: 38px;
+        color: #5853e3;
+        text-align: center;
+        margin-bottom: 80px;
+        letter-spacing: 0.2em;
+    }
+  
+    header{
+        z-index: 9999;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header h1, header img, header h1 a{
+        margin: 0 auto;
+        display: block;
+        width:100px;
+        padding: 5px 0;
+    }
+    header ul{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5px;  
+        padding: 10px 0;     
+    }
+    header li {
+        font-family: 'Akira Expanded', sans-serif;
+        font-size: 0.8em;
+        color: #fff;
+        letter-spacing: 0.2em;
+        padding: 13px;
+        text-decoration: none; 
+        cursor: pointer;
+    }
+    
+    /* main */
+    .top-content{
+        background: url(../images/1-mobile.jpg) no-repeat center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .title-text{
+        width:90%;
+        position: absolute;
+        display: inline-block;
+        animation-name: move;
+        animation-duration: 2s;
+        animation-iteration-count:infinite;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .sub-text{
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 10px;
+    }
+    /* contents */
+    #contents{
+        text-align: center;
+        background: url(../images/2-bg.jpg) no-repeat center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .content-spec{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .content-spec-left img, .content-spec-right img, .mobile-hide{
+        display: none;
+    }
+    .content-spec-center img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .content-spec-center p{
+        margin-top: 30px;
+    }
+    .content-spec-center{
+        display: inline-block;
+        margin:0 auto;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 200;
+    }
+    .content-spec-center span{
+        font-weight: 500;
+        line-height: 1.5em;
+        color:#5853e3;
+    }
+
+    /* contents1 */
+    #contents1{
+        height: 100vh;
+        display: block;
+        padding: 20% 0;
+        box-sizing: border-box;
+    }
+    .web-hide{
+        margin:0 auto;
+        position:relative;
+        width:280px;
+        overflow: hidden;
+    }
+    #contents1 ul>img{
+        width: 250px;
+    }
+    #contents1 ul{
+        display: flex;
+        position:relative;
+        width: 840px;
+        transition: left 2s ease-out;
+    }
+    #contents1 li{
+        width:250px;
+        height: 430px;
+        padding: 0 15px;
+        display: inline-block;
+    }
+    
+    .ddSub{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 16px;
+        letter-spacing: -0.05em;
+        margin-top: 20px;
+    }
+    dl> dt{
+        font-family: 'Akira Expanded', sans-serif;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        margin-top: 20px;
+    }
+    dl> dd:nth-of-type(1){
+        margin: 15px 0 30px 0;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    dl> dd:nth-of-type(2){
+        font-family: 'Akira Expanded', sans-serif;
+        font-size: 14px;
+        text-align: right;
+        letter-spacing: 0.1em;
+    }
+    dt>img{
+        margin-bottom:12px;
+    }
+    #contents2{
+        height: 100vh;
+    }
+    .content2-design{
+        position:relative;
+        top:10%;
+        margin: 0 auto;
+    }
+    
+    #contents2 ul{
+        display: flex;
+        position:relative;
+        transition: left 2s ease-out;
+    }
+    #contents2 li{
+        width:250px;
+        height: 430px;
+        padding: 0 15px;
+        display: inline-block;
+    }
+    #contents2 ul>img{
+        width: 250px;
+    }
+
+    .design-hide{
+        margin:0 auto;
+        position:relative;
+        /* width:280px;
+        overflow: hidden; */
+    }
+    
+    button{
+        all:unset;
+    }
+    .desg-prev img,
+    .desg-next img,
+    .web-prev img,
+    .web-next img{
+        display: inline-block;
+        width:20px;
+        padding:10px;
+    }
+    .content1-web{
+        position:relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .web-prev{
+        position:absolute;
+        left:1%;
+        top:40%
+    }
+    .web-next{
+        position:absolute;
+        right:1%;
+        top:40%;
+    }
+    #contents1{
+        display: block;
+        padding: 20% 0;
+        box-sizing: border-box;
+    }
+    .design-hide{
+        margin:0 auto;
+        position:relative;
+        width:280px;
+        overflow: hidden;
+    }
+    #contents2 ul>img{
+        width: 250px;
+    }
+    #contents2 ul{
+        display: flex;
+        position:relative;
+        width: 840px;
+        transition: left 2s ease-out;
+    }
+    #contents2 li{
+        width:250px;
+        height: 430px;
+        padding: 0 15px;
+        display: inline-block;
+    }
+    .content2-design{
+        position:relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .desg-prev{
+        position:absolute;
+        left:1%;
+        top:40%
+    }
+    .desg-next{
+        position:absolute;
+        right:1%;
+        top:40%;
+    }
+}
